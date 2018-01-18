@@ -16,6 +16,41 @@ body {
      padding: 20px;
 }
 
+/*n.b. no single line comment use '//'
+/*sets small letters to capitals in all p elements?????*/
+/*
+p {
+
+	font-variant: small-caps;
+	
+}
+*/
+/*the selector sets all ps within the project class to caps*/
+/*
+.project p {
+
+	font-variant: small-caps;
+	
+}
+*/
+/* calls ids under project1*/
+/*
+#project1 {
+	
+	font-variant: small-caps;	
+	
+}
+*/
+
+.project {
+	
+	margin-left: 20px;
+	background-color: #dee7f7;
+	padding: 20px;
+	width: 525px;
+
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
